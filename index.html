@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Score Counter</title>
 </head>
-<body class="flex">
+<body class="flex column">
     <main class="flex">
         <div class="container flex column">
             <h1 class="team ff-verdana fs-700">home</h1>
@@ -15,9 +15,9 @@
                 <h1 id="home-score" class="score ff-cursed">0</h1>
             </div>
             <div class="btn-container flex">
-                <button class="increase-btn ff-cursed" onclick="plusOneHome()">+1</button>
-                <button class="increase-btn ff-cursed" onclick="plusTwoHome()">+2</button>
-                <button class="increase-btn ff-cursed" onclick="plusThreeHome()">+3</button>
+                <button class="btn increase-btn ff-cursed" onclick="plusOneHome()">+1</button>
+                <button class="btn increase-btn ff-cursed" onclick="plusTwoHome()">+2</button>
+                <button class="btn increase-btn ff-cursed" onclick="plusThreeHome()">+3</button>
             </div>
         </div>
         <div class="container flex column">
@@ -26,12 +26,13 @@
                 <h1 id="guest-score" class="score ff-cursed">0</h1>
             </div>
             <div class="btn-container flex">
-                <button class="increase-btn ff-cursed" onclick="plusOneGuest()">+1</button>
-                <button class="increase-btn ff-cursed" onclick="plusTwoGuest()">+2</button>
-                <button class="increase-btn ff-cursed" onclick="plusThreeGuest()">+3</button>
+                <button class="btn increase-btn ff-cursed" onclick="plusOneGuest()">+1</button>
+                <button class="btn increase-btn ff-cursed" onclick="plusTwoGuest()">+2</button>
+                <button class="btn increase-btn ff-cursed" onclick="plusThreeGuest()">+3</button>
             </div>
         </div>
     </main>
+    <button class="new-game ff-verdana" onclick="newGame()">new game</button>
     <script src="index.js"></script>
 </body>
 </html>

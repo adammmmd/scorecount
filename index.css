@@ -78,13 +78,26 @@ main {
 }
 
 .increase-btn {
+    padding: 5px 10px;
+}
+
+.btn {
     border: 2px solid var(--gray);
     background-color: var(--blue-jeans);
     color: var(--gray);
-    padding: 5px 10px;
     border-radius: 5px;
 }
 
+.new-game {
+    border: 2px solid var(--blue-jeans);
+    background-color: var(--gray);
+    color: var(--blue-jeans);
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
 
 
 
